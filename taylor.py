@@ -55,7 +55,7 @@ def rsh(b,c):
 
     return (root)
 
-print rsh(B,C)
+print (rsh(B,C))
 #print bol(B,C)
 #print 'row=',row(M,R,0.5)
 #print 'xd=',(C/B+(C**2)/(B**3))/B
