@@ -15,10 +15,10 @@ def rsh(b,c):
             x1=(-b+math.sqrt(D))/2.0
         x2=c/x1
 
-    if x1==x2:
-        root=x1
-    else:
-        root=x1,x2
+        if x1==x2:
+            root=x1
+        else:
+            root=x1,x2
 
     if D<0:
         x1,x2=(-b+cmath.sqrt(D))/2.0 , (-b-cmath.sqrt(D))/2.0
