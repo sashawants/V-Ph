@@ -28,4 +28,4 @@ def rsh(b,c):
 
     return (root)
 
-print rsh(B,C)
+print (rsh(B,C))
