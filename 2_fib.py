@@ -17,8 +17,8 @@ while f<N:
 
 
 s1 = sum([x for x in lst if x%2==0])
-ch = sum([x**3 for x in lst])
-zn = sum([x**2 for x in lst])
+ch = sum([x**3 for x in s1])
+zn = sum([x**2 for x in s1])
 o = ch / (1.0 * zn)
 
 #print (ch)
